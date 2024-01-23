@@ -11,7 +11,7 @@ import { SwUpdate, VersionEvent } from '@angular/service-worker';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  version = 'v1.0.1';
+  version = 'v1.0.0';
   swUpdate = inject(SwUpdate);
   logs: VersionEvent[] = [];
 

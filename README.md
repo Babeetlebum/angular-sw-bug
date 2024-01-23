@@ -1,6 +1,6 @@
 # AngularSwBug
 
-- `yarn build watch`
+- `yarn build --watch`
 - `docker-compose up --build`
 - open browser at http://localhost:4201
 - should display `v1.0.0` with no "SwUpdate logs"
