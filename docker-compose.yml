@@ -1,0 +1,9 @@
+version: "3.1"
+services:
+  nginx:
+    image: nginx:alpine
+    container_name: angular-sw-bug
+    volumes:
+      - ${PWD}/dist/angular-sw-bug/browser:/usr/share/nginx/html
+    ports:
+      - 4201:80
